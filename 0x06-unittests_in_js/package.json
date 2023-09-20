@@ -2,9 +2,9 @@
   "name": "unittests_in_js",
   "version": "1.0.0",
   "description": "A project for learning the basics of unittests in Node.js.",
-  "author": "Daniel Shibabaw <danielgetaneh@gmail.com>",
+  "author": "Edikan Fred <edikanbfred@gmail.com>",
   "private": true,
-  "license": "MIT",
+  "license": " ",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "lint-all": "./node_modules/.bin/eslint [0-9]*.js",
@@ -18,6 +18,9 @@
     "global": "^4.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/register": "^7.22.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
@@ -32,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/getdaniel/alx-backend-javascript"
+    "url": "https://github.com/Gateg79/alx-backend-javascript"
   },
   "bugs": {
-    "url": "https://github.com/getdaniel/alx-backend-javascript/issues"
+    "url": "https://github.com/Gateg79/alx-backend-javascript/issues"
   },
-  "homepage": "https://github.com/getdaniel/alx-backend-javascript/blob/main/0x06-unittests_in_js/README.md",
+  "homepage": "https://github.com/Gateg79/alx-backend-javascript/blob/main/0x06-unittests_in_js/README.md",
   "engines": {
     "node": "16.x",
     "npm": "8.x",
